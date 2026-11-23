@@ -1,9 +1,8 @@
 <?php
-    //PALAVRA : 'APIKEY'
     require 'config.php';
     require 'model/filmeModel.php';
 
-    importarFilmesDaAPI('');
+    importarFilmesDaAPI(''); // colocar aqui a chave da API
 
     $filmes = listarFilmes();
 
